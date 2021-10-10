@@ -1,0 +1,26 @@
+#home_banner_box { height: 850px; }
+.home_banner_wrapper { background-image: url("./images/EWC2021-Webpage_Header-01.jpg"); background-size: cover; font-family: Roboto, sans-serif; font-weight: bold; position: relative; height: 100%; }
+.home_banner_wrapper .content { float: right; padding-top: 5%; margin-right: 160px; font-weight: bold; width: 377px; display: block; }
+.home_banner_wrapper .content .heading { color: rgb(48, 57, 69); font-weight: 900; font-size: 25px; line-height: 30px; padding-top: 30px; padding-left: 44px; }
+.home_banner_wrapper .content .button { color: white; background: rgb(218, 53, 105); width: 325px; display: block; padding: 15px 10px; border-radius: 10px; text-align: center; margin-left: 45px; }
+@media only screen and (max-width: 1300px) {
+  .home_banner_wrapper { background-position: -200px center; background-repeat: no-repeat; }
+}
+@media only screen and (max-width: 1100px) {
+  .home_banner_wrapper { background-position: -340px center; background-repeat: no-repeat; }
+}
+@media only screen and (max-width: 1000px) {
+  #home_banner_box { height: auto; }
+  .home_banner_wrapper { background-image: none; }
+  .banner-image img { width: 555px; text-align: center; }
+  .home_banner_wrapper .content { width: 100%; float: left; padding-left: 5%; padding-bottom: 60px; }
+  .home_banner_wrapper .content .heading { padding-left: 66px; width: auto; font-size: 35px; line-height: 40px; }
+  .home_banner_wrapper .content .button { margin-left: 66px; width: 466px; }
+}
+@media only screen and (max-width: 500px) {
+  .banner-image { text-align: center; width: 300px; margin: 0px auto; }
+  .btn-test-box { width: 300px; margin: 0px auto; }
+  .home_banner_wrapper .content .button { margin-left: 39px; width: auto; }
+  .home_banner_wrapper .content .heading { padding-left: 37px; width: auto; font-size: 20px; line-height: 25px; }
+  .home_banner_wrapper .content { padding: 20px 0px 60px; }
+}
